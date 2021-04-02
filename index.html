@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=" container">
+        <div class="row">
+            <div class="col-12 text-center text-capitalize text-primary">
+                <h2>Pagination</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">        
+                <table class="customers">
+                    <!-- table-responsive-->
+                    <thead>
+                      <tr class="bg-info text-left">
+                        <th class="text-white">id</th>
+                        <th class="text-white">name</th>
+                        <th class="text-white">email</th>
+                      </tr>
+                    </thead>
+                    <tbody id='myInfo' class="text-">                
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="row">
+                    <ul class="pagination">
+                      <li><button  onclick="foo(1)">1</button></li>
+                      <li><button  onclick="foo(2)">2</button></li>
+                      <li><button  onclick="foo(3)">3</button></li>
+                      <li><button  onclick="foo(4)">4</button></li>
+                      <li><button  onclick="foo(5)">5</button></li>
+                      <li><button  onclick="foo(6)">6</button></li>
+                      <li><button  onclick="foo(7)">7</button></li>
+                      <li><button  onclick="foo(8)">8</button></li>
+                      <li><button  onclick="foo(9)">9</button></li>
+                      <li><button  onclick="foo(10)">10</button></li>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
